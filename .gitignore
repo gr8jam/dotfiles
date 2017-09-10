@@ -2,3 +2,7 @@
 
 # Ignore files that are currently edited in vim
 **.swp
+
+**.netrwhist
+
+
