@@ -9,7 +9,7 @@ set number
 " Set tabs as blank spaces
 set expandtab
 
-" Number of space charachters to replace one tab charachter
+" Number of space characters to replace one tab character
 set tabstop=2
 
 " Indentation 
@@ -19,7 +19,7 @@ set shiftwidth=2
 retab
 
 
-" roslaunch xml syntax hilighting with inline yaml support
+" roslaunch xml syntax highlighting with inline yaml support
 autocmd BufRead,BufNewFile *.launch setfiletype roslaunch
 
 
@@ -42,12 +42,14 @@ autocmd BufRead,BufNewFile *.launch setfiletype roslaunch
 "let g:ansible_attribute_highlight = "ad"
 "let g:ansible_name_highlight = 'b'
 
-
+" Jijja 
 
 set hlsearch
 set incsearch
 
+" set spell spelllang=en_us
+
+set autoindent
 
 
-
-
+ 
