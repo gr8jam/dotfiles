@@ -56,7 +56,7 @@ highlight link yamlFlowStringDelimiter Delimiter
 
 
 syn keyword ansible_extra_special_keywords register always_run changed_when failed_when no_log args vars delegate_to ignore_errors containedin=yamlBlockMappingKey contained
-syn keyword ansible_normal_keywords include until retries delay when only_if become become_user block rescue always notify containedin=yamlBlockMappingKey contained
+syn keyword ansible_normal_keywords include until retries delay when only_if become become_user block rescue always notify tags containedin=yamlBlockMappingKey contained
 syn match ansible_with_keywords "\vwith_.+" containedin=yamlBlockMappingKey contained
 
 syn match ansibleModuleAtributesOld "[a-z_]*=" 
@@ -67,9 +67,9 @@ highlight yamlKeyValueName                ctermfg=Red  ctermbg=NONE cterm=NONE
  
 highlight ansibleModules                  ctermfg=Cyan ctermbg=NONE cterm=bold
 
-highlight link yamlBlockMappingKey ansibleModuleAtributes
-highlight link ansibleModuleAtributesOld ansibleModuleAtributes
-highlight ansibleModuleAtributes         ctermfg=Green ctermbg=NONE cterm=NONE
+highlight link yamlBlockMappingKey        ansibleModuleAtributes
+highlight link ansibleModuleAtributesOld  ansibleModuleAtributes
+highlight ansibleModuleAtributes          ctermfg=Green ctermbg=NONE cterm=NONE
 
 highlight ansible_extra_special_keywords  ctermfg=Blue ctermbg=NONE cterm=none
 highlight ansible_normal_keywords         ctermfg=Blue ctermbg=NONE cterm=none

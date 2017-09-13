@@ -129,7 +129,7 @@ fi
 
 
 source /opt/ros/kinetic/setup.bash
-source ~/catkin_ws/devel/setup.bash
+source /home/matej/catkin_ws/devel/setup.bash
 
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
