@@ -43,7 +43,7 @@ esac
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
-#force_color_prompt=yes
+force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
@@ -133,3 +133,6 @@ source /home/matej/catkin_ws/devel/setup.bash
 
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+#export ROS_MASTER_URI=http://robotino-1:11311
+#export ROS_IP=192.168.1.103
