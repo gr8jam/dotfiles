@@ -22,7 +22,9 @@ function ll() {
   path_start=$(pwd)
   cd $path_goto
   echo ''
-  ls -lad .* && ls -l
+#  ls -lad .* && ls -l || ls -l
+  ls -lad .*
+  ls -l
   cd $path_start
 }
 #export -f ll
