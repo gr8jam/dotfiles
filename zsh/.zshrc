@@ -1,4 +1,5 @@
 # Set up the prompt
+ZSH_THEME=robbyrussell
 
 autoload -Uz promptinit
 promptinit
@@ -54,5 +55,8 @@ fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-
-
+#export ROS_MASTER_URI=http://bumblebee-robotino:1131
+#export ROS_IP=192.168.1.107
+source /opt/ros/kinetic/setup.zsh
+source $HOME/catkin_ws/devel/setup.zsh
+source $HOME/.rosrc
