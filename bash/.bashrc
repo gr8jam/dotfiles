@@ -105,3 +105,6 @@ fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+
+# added by Anaconda3 installer
+export PATH="/home/matejjeglic/anaconda3/bin:$PATH"

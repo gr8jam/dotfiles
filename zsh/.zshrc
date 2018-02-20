@@ -60,3 +60,7 @@ fi
 #source /opt/ros/kinetic/setup.zsh
 #source $HOME/catkin_ws/devel/setup.zsh
 #source $HOME/.rosrc
+
+# added by Anaconda3 installer
+export PATH="/home/matejjeglic/anaconda3/bin:$PATH"
+
