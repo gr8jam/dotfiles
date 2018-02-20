@@ -98,11 +98,10 @@ if ! shopt -oq posix; then
 fi
 
 
-source /opt/ros/kinetic/setup.bash
-source /home/matej/catkin_ws/devel/setup.bash
-
+#source /opt/ros/kinetic/setup.bash
+#source /home/matej/catkin_ws/devel/setup.bash
+#export ROS_MASTER_URI=http://robotino-1:11311
+#export ROS_IP=192.168.1.103
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-#export ROS_MASTER_URI=http://robotino-1:11311
-#export ROS_IP=192.168.1.103
