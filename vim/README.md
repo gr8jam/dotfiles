@@ -4,7 +4,7 @@ To install the YouCompleteMe plugin for Vim, make sure the following repositiore
 * /.vim/bundle/Vundel.vim
 
 Then run:
-```console
+```bash
 vim +PluginInstall +qall
 ```
 ...and:
