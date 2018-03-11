@@ -8,7 +8,7 @@ Then run:
 vim +PluginInstall +qall
 ```
 ...and:
-```{r, engine='bash', count_lines}
+```bash
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
 ```
