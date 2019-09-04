@@ -15,18 +15,18 @@ fi
 alias la='ls -A'
 alias l='ls -CF'
 alias lls='ls -l'
+alias ll='ls -ld .* && ls -l'
 
-
-function ll() {
-  path_goto=${1:-"."}
-  path_start=$(pwd)
-  cd $path_goto
-  echo ''
-#  ls -lad .* && ls -l || ls -l
-  ls -lad .*
-  ls -l
-  cd $path_start
-}
+#function ll() {
+#  path_goto=${1:-"."}
+#  path_start=$(pwd)
+#  cd $path_goto
+#  echo ''
+##  ls -lad .* && ls -l || ls -l
+#  ls -lad .*
+#  ls -l
+#  cd $path_start
+#}
 #export -f ll
 
 
