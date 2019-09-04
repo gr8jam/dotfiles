@@ -15,7 +15,8 @@ fi
 alias la='ls -A'
 alias l='ls -CF'
 alias lls='ls -l'
-alias ll='ls -ld .* && ls -l'
+#alias ll='ls -ld .* && ls -l'
+alias ll='ls -l && echo "" && ls -ld .*'
 
 #function ll() {
 #  path_goto=${1:-"."}
