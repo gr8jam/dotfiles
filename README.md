@@ -14,3 +14,21 @@ $ stow bash
 $ stow vim
 $ stow zsh
 ```
+
+
+Install useful tools
+```
+sudo apt install git terminator vim stow ranger curl
+```
+
+Install oh-my-zsh by following instructions on [https://ohmyz.sh/](https://ohmyz.sh/). After installation setup the theme inside .zshrc.
+```
+ZSH_THEME="mrtazz"
+```
+
+Install fuzzy finder:
+```
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
+

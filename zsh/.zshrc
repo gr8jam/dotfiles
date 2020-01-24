@@ -7,9 +7,10 @@ export ZSH="/home/matejj/.oh-my-zsh"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#ZSH_THEME="agnoster"
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+#ZSH_THEME="robbyrussell"
 ZSH_THEME="mrtazz"
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -103,7 +104,4 @@ if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
 
-#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-
-
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
