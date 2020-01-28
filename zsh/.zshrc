@@ -105,3 +105,5 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
