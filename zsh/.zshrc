@@ -100,8 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-if [ -f ~/.bash_aliases ]; then
-  . ~/.bash_aliases
+if [ -f ~/.zsh_aliases ]; then
+  . ~/.zsh_aliases
 fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
