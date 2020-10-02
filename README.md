@@ -14,7 +14,7 @@ $ stow zsh
 ```
 
 
-## Setting up new PC
+## Setting up a new PC
 1. Install basic tools
     ``` shell script
     sudo apt install git terminator vim stow ranger curl
@@ -22,7 +22,7 @@ $ stow zsh
 
 2. Install **oh-my-zsh** by following the [instructions](https://ohmyz.sh/).
 3. Clone this repository directory and 'stow' the dotfiles.
-    ```
+    ``` shell script
     $ cd ~/dotfiles
     $ stow zsh
     ```
