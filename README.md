@@ -1,34 +1,34 @@
-## Place for my personal configuration files.
+## Place for my personal configuration files
 
 the article about it: 
 
 http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html
 
 
-### tl;dr;
+### tldr;
 
 Once repository is cloned, use the following commands:
 ```
 $ cd ~/dotfiles
-$ stow bash
-$ stow vim
 $ stow zsh
 ```
 
 
-Install useful tools
-```
-sudo apt install git terminator vim stow ranger curl
-```
+## Setting up new PC
+1. Install basic tools
+    ``` shell script
+    sudo apt install git terminator vim stow ranger curl
+    ```
 
-Install oh-my-zsh by following instructions on [https://ohmyz.sh/](https://ohmyz.sh/). After installation setup the theme inside .zshrc.
-```
-ZSH_THEME="mrtazz"
-```
+2. Install **oh-my-zsh** by following the [instructions](https://ohmyz.sh/).
+3. Clone this repository directory and 'stow' the dotfiles.
+    ```
+    $ cd ~/dotfiles
+    $ stow zsh
+    ```
 
-Install fuzzy finder:
-```
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
-```
+4. Install **fzf** (a general-purpose command-line fuzzy finder) following the [instructions](https://github.com/junegunn/fzf.git).
+5. Install **zsh-insulter** (to randomly insults the user when typing wrong command) following the [instructions](https://github.com/matmutant/zsh-insulter).
+6. Install **miniconda** (a free minimal installer for conda) following the [instructions](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
+
 
