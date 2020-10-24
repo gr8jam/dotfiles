@@ -143,8 +143,7 @@ else
     else
         export PATH="/home/whjack/miniconda3/bin:$PATH"
     fi
+fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-
-fi
