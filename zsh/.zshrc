@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/matejj/.oh-my-zsh"
+export ZSH="/home/whjack/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -130,3 +130,21 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/whjack/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/whjack/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/whjack/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/whjack/miniconda3/bin:$PATH"
+    fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+
+fi
